@@ -1,0 +1,163 @@
+.MainDisplayContainer{
+    width: 100%;
+    height: 100vh;
+}
+
+.register_form_container{
+    display: flex;
+    flex-direction: column;
+    background-color:#f9fbfc ;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 2rem);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.req_form{
+    padding: 20px 2rem;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgrey;
+    box-shadow: 0 16px 50px rgba(0, 0, 0, 0.2);
+}
+
+.form__header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem; 
+}
+
+.form__header > img{
+    width: 150px;
+}
+
+.form__header > label {
+    font-size: 20px;
+    font-weight: 550;
+}
+.form__body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form_name{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form_name > label {
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.form_inner_name {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_inner_name > input{
+    width: 48%;
+    height: 30px;
+    outline-width: 0;
+}
+
+.form_address{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.form_address > label{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.form_inner_address{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    gap: 10px;
+}
+
+.form_inner_address > input {
+    width: 48%;
+    height: 30px;
+    outline-width: 0;
+}
+
+.form_contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form_inner_contact {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.form_inner_contact > label{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 550;
+}
+.form_inner_contact>input{
+    width: 48%;
+    height: 30px;
+    outline-width: 0;
+}
+.form_inner_contact > select{
+    width: 100%;
+}
+.form_rooms{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.form_rooms>label{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 550;
+}
+.form_rooms>select{
+    width: 48%;
+    height: 30px;
+    outline-width: 0;
+}
+.submit>button{
+    margin-top: 20px;
+    background-color: #f76700;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}

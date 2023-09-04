@@ -1,0 +1,51 @@
+.pricingOptions{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    width: 1500px;
+    margin-right: 50px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.pricing__right>img{
+    width:450px;
+    height: 300px;
+}
+.pricing__left>h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.desc{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-weight: 550;
+}
+.price{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.pricing__left>button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f76700;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.pricing__left>button:hover{
+    color:white;
+    background-color: #45CFDD;
+    font-weight: 600;
+}
+.pricingOptions:hover{
+    cursor: pointer;
+    background-color:whitesmoke;
+    box-shadow: 0 5px 7px rgba(0,0,0,0.75);
+}

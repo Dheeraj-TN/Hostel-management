@@ -1,0 +1,263 @@
+.homePage {
+    top: 0;
+    position: relative;
+    height:90%;
+    z-index: 1;
+    background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F3fitech.com%2Fwp-content%2Fproducts%2FHostel-Management-System.jpg&f=1&nofb=1&ipt=273d42cc9904ccd6a0f8d185d41e87fa425302e3ad5a1391859d1846cdf466e5&ipo=images")
+      center no-repeat;
+    background-size: cover;
+  }
+  
+  .homePage__gradient {
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(
+      to bottom,
+      rgba(251, 247, 247, 0.8) 0,
+      rgba(232, 231, 231, 0) 60%,
+      #e0dede00 100%
+    );
+  }
+  
+  .homePage__body {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+    left: 0;
+    right: 0;
+  }
+  
+  .homePage__body > h1 {
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+  }
+  
+  .homePage__body > h2 {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  
+  .compare__features{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .page2{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .page2>h1{
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .page2>h5{
+    color: #45CFDD;
+  }
+  .page2>.compare__features{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .page3{
+    padding:30px;
+    text-align: center;
+    background-color: #004369;
+    color: white;
+  }
+  .page3>h3{
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+  .page3>h1{
+    font-size: 40px;
+  }
+  .display__features{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  .page4>h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .page5{
+    background-color: #004369;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+  }
+  .page5>h1{
+    margin-bottom: 40px;
+    font-size: 40px;
+  }
+  .drop__thoughts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .drop__thoughts>input{
+    width: 350px;
+    height: 40px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+  }
+  .drop__thoughts>button{
+    margin-left: 20px;
+    width: 100px;
+    height: 60px;
+    background-color: #45CFDD;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+  }
+  .page6{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.skooltree.com%2Fwp-content%2Fuploads%2F2020%2F01%2Fhostel-management-system-1.png&f=1&nofb=1&ipt=41b5c745ab63ee0926b8e60b5639dc740977721b1ebada746e584a302ffc7e30&ipo=images");
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 500px;
+    z-index: 1;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .page6>h1{
+    opacity: 1;
+    font-size: 50px;
+    font-weight: 700;
+    color:black;
+  }
+  .page6>p{
+    font-weight: 20px;
+    color: black;
+    font-weight: 550;
+    margin-bottom: 20px;
+  }
+  .reg>input{
+    width: 350px;
+    height: 40px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    background-color: aliceblue;
+  }
+  .reg>button{
+    margin-left: 20px;
+    width: 100px;
+    height: 60px;
+    background-color: #213f42;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+  }
+  @media (max-width:768px){
+    .mainPage{
+      margin: 0;
+      padding: 0;
+    }
+    .homePage{
+      margin: 0;
+      padding: 0;
+    }
+    .homePage__body{
+      top: 30%;
+    }
+    .homePage__body > h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .homePage__body > h2 {
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+    .compare__features{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .page2>h1{
+      font-size: 30px;
+    }
+    .page3>h3{
+      font-size: 20px;
+    }
+    .page3>h1{
+      font-size: 30px;
+    }
+    .page4>h1{
+      font-size: 30px;
+    }
+    .drop__thoughts{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .drop__thoughts>button{
+      margin-top: 20px;
+      width: 370px;
+      height: 40px;
+      font-size: 17px;
+      border: none;
+      border-radius: 5px;
+      outline: none;
+      padding: 10px;
+      margin-right: 20px;
+    }
+    .page5>h1{
+      font-size: 30px;
+    }
+    .page6>h1{
+      font-size: 30px;
+    }
+    .page6>p{
+      font-size: 17px;
+    }
+    .reg{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .reg>button{
+      margin-top: 20px;
+      width: 370px;
+      height: 50px;
+      font-size: 17px;
+      border: none;
+      border-radius: 5px;
+      outline: none;
+      padding: 10px;
+      margin-right: 20px;
+    }
+  }

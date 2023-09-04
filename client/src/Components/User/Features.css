@@ -1,0 +1,36 @@
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: transform 100ms ease-in;
+}
+.features:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.features>img{
+    width: 300px;
+    height: 400px;
+}
+.features>.info{
+    margin-top: 30px;
+}
+.features > .info>p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+@media (max-width:768px){
+    .features>img{
+        width: 400px;
+        height: 400px;
+    }
+    .features>.info>p{
+        font-size: 15px;
+    }
+    .info>h2{
+        font-size: 20px;
+    }
+
+}

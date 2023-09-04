@@ -1,0 +1,116 @@
+.page1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+.page1__left{
+    margin-left: 20px;
+}
+.page1__left>h1{
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 60px;
+
+}
+.page1__left>h3{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.page1__left>h3>.MuiSvgIcon-root{
+    font-weight: 800;
+    font-size: 40px;
+    color: orange;
+}
+.page1__left>p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 80px;
+    width: 70%;
+}
+.page1__right>img{
+    width: 700px;
+    height: 700px;
+}
+
+  .page2__about{
+    position: relative;
+    height: 800px;
+    margin-bottom: 0;
+  }
+  .page2__about>img{
+    width:100%;
+    height: 800px;
+  }
+  .page2__left{
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+    left: 0;
+    right: 0;
+  }
+  .page2__left> h1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+  .page2__left>form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .date{
+    display: flex;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    outline: none;
+    width: 300px;
+    height: 40px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  .date>input{
+    background-color: transparent;
+    padding: 10px;
+    outline: none;
+    border-width: 0;
+    font-size: 17px;
+    color:black;
+  }
+  .date>.MuiSvgIcon-root{
+    color: black;
+    cursor: pointer;
+  }
+  .page2__left>form>input{
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    outline: none;
+    width: 300px;
+    height: 40px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  .page2__left>button{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f76700;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 300px;
+    margin-left: 20px;
+  }
